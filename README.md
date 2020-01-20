@@ -1,4 +1,4 @@
-# Designer-Dog
+# Designer-Dog Chrome插件
 Quick launch designer websites.
 一键打开设计师常用网站
 
