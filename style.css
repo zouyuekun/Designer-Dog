@@ -1,0 +1,115 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 390px;
+    background-color:transparent;
+
+}
+.popup_bg{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 40px;
+    width: 300px;
+    height: 390px;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* z-index: -3; */
+
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15); */
+}
+.list{
+    /* background-color: aqua; */
+    height: 280px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    /* background-color: aliceblue; */
+}
+
+.lili{
+    width: 240px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* background-color: rgb(125, 125, 163); */
+
+}
+.lili:hover{
+    width: 240px;
+    height: 70px;
+    background-color: rgba(113, 127, 165, 0.096);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.lili1{
+    display: flex;
+    align-items: center;
+}
+
+
+.icon{
+    height: 40px;
+    margin-right: 15px;
+}
+
+.icon-name{
+    /* background-color: aqua; */
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    /* background-color: antiquewhite  ; */
+    text-align: center;
+    color: #5C6681;
+    border: 18px solid transparent;
+
+    TEXT-DECORATION:none
+
+}
+
+.go{
+    width: 16px;
+    height: 16px;
+}
+
+.bg{
+background-color: #5C6681;
+}
+
+.button{
+    width: 240px;
+    height: 60px;
+    background: #0056FF;
+    border-radius: 60px;
+    border: none;
+    outline:none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: rgb(0, 47, 255);
+}
